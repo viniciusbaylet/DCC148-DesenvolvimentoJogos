@@ -5,7 +5,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0jfm"]
 size = Vector2(255.55559, 261.1111)
 
-[node name="Chao" type="StaticBody2D" unique_id=387653367]
+[node name="Chao" type="Area2D" unique_id=82208461]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=450923232]
 position = Vector2(67, 63.5)

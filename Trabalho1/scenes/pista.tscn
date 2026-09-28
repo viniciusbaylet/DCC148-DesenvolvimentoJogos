@@ -10,253 +10,271 @@
 position = Vector2(-44, -40)
 
 [node name="Chao2" parent="." unique_id=1619083095 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 326)
+position = Vector2(-44, 323)
 
 [node name="Chao3" parent="." unique_id=507423396 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 373)
+position = Vector2(-44, 369)
 
 [node name="Chao4" parent="." unique_id=1211649029 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 420)
+position = Vector2(-44, 415)
 
 [node name="Chao5" parent="." unique_id=1678893589 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 467)
+position = Vector2(-44, 461)
 
 [node name="Chao6" parent="." unique_id=1478227546 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 514)
+position = Vector2(-44, 507)
 
 [node name="Chao7" parent="." unique_id=1876629905 instance=ExtResource("1_ft10e")]
+position = Vector2(-43, 553)
+
+[node name="Chao160" parent="." unique_id=82208461 instance=ExtResource("1_ft10e")]
 position = Vector2(-44, 561)
 
+[node name="Chao161" parent="." unique_id=490354268 instance=ExtResource("1_ft10e")]
+position = Vector2(2, 561)
+
+[node name="Chao162" parent="." unique_id=1375039226 instance=ExtResource("1_ft10e")]
+position = Vector2(48, 561)
+
 [node name="Chao8" parent="." unique_id=323679895 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 101)
+position = Vector2(-44, 98)
 
 [node name="Chao9" parent="." unique_id=176987028 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 54)
+position = Vector2(-44, 52)
 
 [node name="Chao10" parent="." unique_id=702087544 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 7)
+position = Vector2(-44, 6)
 
 [node name="Chao11" parent="." unique_id=483159995 instance=ExtResource("1_ft10e")]
 position = Vector2(-44, 185)
 
 [node name="Chao12" parent="." unique_id=1877384406 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 232)
+position = Vector2(-44, 231)
 
 [node name="Chao13" parent="." unique_id=1512319115 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 279)
+position = Vector2(-44, 277)
 
 [node name="Chao14" parent="." unique_id=278361910 instance=ExtResource("1_ft10e")]
-position = Vector2(-44, 145)
+position = Vector2(-44, 143)
 
 [node name="Chao15" parent="." unique_id=1194607725 instance=ExtResource("1_ft10e")]
 position = Vector2(2, -40)
 
 [node name="Chao16" parent="." unique_id=837693951 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 326)
+position = Vector2(2, 323)
 
 [node name="Chao17" parent="." unique_id=436539166 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 373)
+position = Vector2(2, 369)
 
 [node name="Chao18" parent="." unique_id=1307754627 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 420)
+position = Vector2(2, 415)
 
 [node name="Chao19" parent="." unique_id=1384914376 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 467)
+position = Vector2(2, 461)
 
 [node name="Chao20" parent="." unique_id=1116750627 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 514)
+position = Vector2(2, 507)
 
 [node name="Chao21" parent="." unique_id=368935166 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 561)
+position = Vector2(2, 553)
 
 [node name="Chao22" parent="." unique_id=194427232 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 101)
+position = Vector2(2, 98)
 
 [node name="Chao23" parent="." unique_id=1418450323 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 54)
+position = Vector2(2, 52)
 
 [node name="Chao24" parent="." unique_id=1693636838 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 7)
+position = Vector2(2, 6)
 
 [node name="Chao25" parent="." unique_id=724418951 instance=ExtResource("1_ft10e")]
 position = Vector2(2, 185)
 
 [node name="Chao26" parent="." unique_id=1222965532 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 232)
+position = Vector2(2, 231)
 
 [node name="Chao27" parent="." unique_id=316726983 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 279)
+position = Vector2(2, 277)
 
 [node name="Chao28" parent="." unique_id=825560007 instance=ExtResource("1_ft10e")]
-position = Vector2(2, 145)
+position = Vector2(2, 143)
 
 [node name="Chao29" parent="." unique_id=1394892011 instance=ExtResource("1_ft10e")]
 position = Vector2(48, -40)
 
 [node name="Chao30" parent="." unique_id=1810472618 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 326)
+position = Vector2(48, 323)
 
 [node name="Chao31" parent="." unique_id=1729541225 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 373)
+position = Vector2(48, 369)
 
 [node name="Chao32" parent="." unique_id=2130106167 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 420)
+position = Vector2(48, 415)
 
 [node name="Chao33" parent="." unique_id=1466709473 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 467)
+position = Vector2(48, 461)
 
 [node name="Chao34" parent="." unique_id=16684904 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 514)
+position = Vector2(48, 507)
 
 [node name="Chao35" parent="." unique_id=562141930 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 561)
+position = Vector2(48, 553)
 
 [node name="Chao36" parent="." unique_id=911563338 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 101)
+position = Vector2(48, 97)
 
 [node name="Chao37" parent="." unique_id=444452341 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 54)
+position = Vector2(48, 52)
 
 [node name="Chao38" parent="." unique_id=744358318 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 7)
+position = Vector2(48, 6)
 
 [node name="Chao39" parent="." unique_id=1627977211 instance=ExtResource("1_ft10e")]
 position = Vector2(48, 185)
 
 [node name="Chao40" parent="." unique_id=1594172108 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 232)
+position = Vector2(48, 231)
 
 [node name="Chao41" parent="." unique_id=198639624 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 279)
+position = Vector2(48, 277)
 
 [node name="Chao42" parent="." unique_id=1161774343 instance=ExtResource("1_ft10e")]
-position = Vector2(48, 145)
+position = Vector2(48, 143)
 
-[node name="Chao115" parent="." unique_id=414581249 instance=ExtResource("1_ft10e")]
+[node name="Chao163" parent="." unique_id=562407328 instance=ExtResource("1_ft10e")]
 position = Vector2(970, -40)
 
-[node name="Chao116" parent="." unique_id=1902194323 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 326)
+[node name="Chao164" parent="." unique_id=1661163966 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 323)
 
-[node name="Chao117" parent="." unique_id=1428970742 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 373)
+[node name="Chao165" parent="." unique_id=1989615207 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 369)
 
-[node name="Chao118" parent="." unique_id=351627163 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 420)
+[node name="Chao166" parent="." unique_id=1887595721 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 415)
 
-[node name="Chao119" parent="." unique_id=2017404638 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 467)
+[node name="Chao167" parent="." unique_id=1355860710 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 461)
 
-[node name="Chao120" parent="." unique_id=1445970501 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 514)
+[node name="Chao168" parent="." unique_id=287406283 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 507)
 
-[node name="Chao121" parent="." unique_id=1031558739 instance=ExtResource("1_ft10e")]
+[node name="Chao169" parent="." unique_id=841095735 instance=ExtResource("1_ft10e")]
+position = Vector2(971, 553)
+
+[node name="Chao170" parent="." unique_id=29146063 instance=ExtResource("1_ft10e")]
 position = Vector2(970, 561)
 
-[node name="Chao122" parent="." unique_id=187282352 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 101)
-
-[node name="Chao123" parent="." unique_id=1288763837 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 54)
-
-[node name="Chao124" parent="." unique_id=305568497 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 7)
-
-[node name="Chao125" parent="." unique_id=818528590 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 185)
-
-[node name="Chao126" parent="." unique_id=415579046 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 232)
-
-[node name="Chao127" parent="." unique_id=118619603 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 279)
-
-[node name="Chao128" parent="." unique_id=272233298 instance=ExtResource("1_ft10e")]
-position = Vector2(970, 145)
-
-[node name="Chao129" parent="." unique_id=2068509306 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, -40)
-
-[node name="Chao130" parent="." unique_id=648664753 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 326)
-
-[node name="Chao131" parent="." unique_id=1040168712 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 373)
-
-[node name="Chao132" parent="." unique_id=46326303 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 420)
-
-[node name="Chao133" parent="." unique_id=1793960589 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 467)
-
-[node name="Chao134" parent="." unique_id=390059713 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 514)
-
-[node name="Chao135" parent="." unique_id=1304650245 instance=ExtResource("1_ft10e")]
+[node name="Chao171" parent="." unique_id=722708346 instance=ExtResource("1_ft10e")]
 position = Vector2(1016, 561)
 
-[node name="Chao136" parent="." unique_id=1709791528 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 101)
-
-[node name="Chao137" parent="." unique_id=522269783 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 54)
-
-[node name="Chao138" parent="." unique_id=155861904 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 7)
-
-[node name="Chao139" parent="." unique_id=1284621234 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 185)
-
-[node name="Chao140" parent="." unique_id=1622129931 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 232)
-
-[node name="Chao141" parent="." unique_id=2016065575 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 279)
-
-[node name="Chao142" parent="." unique_id=1773662768 instance=ExtResource("1_ft10e")]
-position = Vector2(1016, 145)
-
-[node name="Chao143" parent="." unique_id=663890272 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, -40)
-
-[node name="Chao144" parent="." unique_id=1796013100 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 326)
-
-[node name="Chao145" parent="." unique_id=249517494 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 373)
-
-[node name="Chao146" parent="." unique_id=261710015 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 420)
-
-[node name="Chao147" parent="." unique_id=689910512 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 467)
-
-[node name="Chao148" parent="." unique_id=184673435 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 514)
-
-[node name="Chao149" parent="." unique_id=723420178 instance=ExtResource("1_ft10e")]
+[node name="Chao172" parent="." unique_id=1759781884 instance=ExtResource("1_ft10e")]
 position = Vector2(1062, 561)
 
-[node name="Chao150" parent="." unique_id=217963992 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 101)
+[node name="Chao173" parent="." unique_id=1424611000 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 98)
 
-[node name="Chao151" parent="." unique_id=1292518706 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 54)
+[node name="Chao174" parent="." unique_id=1351405309 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 52)
 
-[node name="Chao152" parent="." unique_id=943999586 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 7)
+[node name="Chao175" parent="." unique_id=302839350 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 6)
 
-[node name="Chao153" parent="." unique_id=270234203 instance=ExtResource("1_ft10e")]
+[node name="Chao176" parent="." unique_id=1562929349 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 185)
+
+[node name="Chao177" parent="." unique_id=130114845 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 231)
+
+[node name="Chao178" parent="." unique_id=1963412601 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 277)
+
+[node name="Chao179" parent="." unique_id=1998970702 instance=ExtResource("1_ft10e")]
+position = Vector2(970, 143)
+
+[node name="Chao180" parent="." unique_id=189906684 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, -40)
+
+[node name="Chao181" parent="." unique_id=1372050754 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 323)
+
+[node name="Chao182" parent="." unique_id=1407730765 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 369)
+
+[node name="Chao183" parent="." unique_id=1338582448 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 415)
+
+[node name="Chao184" parent="." unique_id=964137661 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 461)
+
+[node name="Chao185" parent="." unique_id=1379685478 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 507)
+
+[node name="Chao186" parent="." unique_id=217213628 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 553)
+
+[node name="Chao187" parent="." unique_id=228070562 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 98)
+
+[node name="Chao188" parent="." unique_id=567386107 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 52)
+
+[node name="Chao189" parent="." unique_id=271250327 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 6)
+
+[node name="Chao190" parent="." unique_id=21198860 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 185)
+
+[node name="Chao191" parent="." unique_id=1517071918 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 231)
+
+[node name="Chao192" parent="." unique_id=192875398 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 277)
+
+[node name="Chao193" parent="." unique_id=782203091 instance=ExtResource("1_ft10e")]
+position = Vector2(1016, 143)
+
+[node name="Chao194" parent="." unique_id=1899320701 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, -40)
+
+[node name="Chao195" parent="." unique_id=363210283 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 323)
+
+[node name="Chao196" parent="." unique_id=2065671990 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 369)
+
+[node name="Chao197" parent="." unique_id=308465176 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 415)
+
+[node name="Chao198" parent="." unique_id=150214955 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 461)
+
+[node name="Chao199" parent="." unique_id=253964230 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 507)
+
+[node name="Chao200" parent="." unique_id=1941137100 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 553)
+
+[node name="Chao201" parent="." unique_id=261124393 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 97)
+
+[node name="Chao202" parent="." unique_id=404967419 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 52)
+
+[node name="Chao203" parent="." unique_id=416902917 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 6)
+
+[node name="Chao204" parent="." unique_id=1702740092 instance=ExtResource("1_ft10e")]
 position = Vector2(1062, 185)
 
-[node name="Chao154" parent="." unique_id=875133088 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 232)
+[node name="Chao205" parent="." unique_id=284091446 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 231)
 
-[node name="Chao155" parent="." unique_id=189586718 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 279)
+[node name="Chao206" parent="." unique_id=1966836614 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 277)
 
-[node name="Chao156" parent="." unique_id=839695081 instance=ExtResource("1_ft10e")]
-position = Vector2(1062, 145)
+[node name="Chao207" parent="." unique_id=1762858053 instance=ExtResource("1_ft10e")]
+position = Vector2(1062, 143)
 
 [node name="Rampa" parent="." unique_id=1553513186 instance=ExtResource("2_itl16")]
 position = Vector2(-13, 8)
@@ -292,37 +310,37 @@ position = Vector2(370, 100)
 position = Vector2(416, 100)
 
 [node name="Chao48" parent="." unique_id=223249594 instance=ExtResource("1_ft10e")]
-position = Vector2(232, 53)
+position = Vector2(232, 54)
 
 [node name="Chao49" parent="." unique_id=1848666938 instance=ExtResource("1_ft10e")]
-position = Vector2(278, 53)
+position = Vector2(278, 54)
 
 [node name="Chao50" parent="." unique_id=1699615627 instance=ExtResource("1_ft10e")]
-position = Vector2(324, 53)
+position = Vector2(324, 54)
 
 [node name="Chao51" parent="." unique_id=678669574 instance=ExtResource("1_ft10e")]
-position = Vector2(370, 53)
+position = Vector2(370, 54)
 
 [node name="Chao52" parent="." unique_id=875518396 instance=ExtResource("1_ft10e")]
-position = Vector2(416, 53)
+position = Vector2(416, 54)
 
 [node name="Chao53" parent="." unique_id=1857792507 instance=ExtResource("1_ft10e")]
-position = Vector2(232, 147)
+position = Vector2(232, 146)
 
 [node name="Chao54" parent="." unique_id=2142980007 instance=ExtResource("1_ft10e")]
-position = Vector2(278, 147)
+position = Vector2(278, 146)
 
 [node name="Chao55" parent="." unique_id=1619919795 instance=ExtResource("1_ft10e")]
-position = Vector2(324, 147)
+position = Vector2(324, 146)
 
 [node name="Chao56" parent="." unique_id=1620022241 instance=ExtResource("1_ft10e")]
-position = Vector2(370, 147)
+position = Vector2(370, 146)
 
 [node name="Chao57" parent="." unique_id=687053160 instance=ExtResource("1_ft10e")]
-position = Vector2(416, 147)
+position = Vector2(416, 146)
 
 [node name="Chao58" parent="." unique_id=619588630 instance=ExtResource("1_ft10e")]
-position = Vector2(232, 419)
+position = Vector2(232, 420)
 
 [node name="Chao59" parent="." unique_id=736034006 instance=ExtResource("1_ft10e")]
 position = Vector2(278, 419)
@@ -337,34 +355,34 @@ position = Vector2(370, 419)
 position = Vector2(416, 419)
 
 [node name="Chao63" parent="." unique_id=1476700681 instance=ExtResource("1_ft10e")]
-position = Vector2(232, 372)
+position = Vector2(232, 374)
 
 [node name="Chao64" parent="." unique_id=70362908 instance=ExtResource("1_ft10e")]
-position = Vector2(278, 372)
+position = Vector2(278, 374)
 
 [node name="Chao65" parent="." unique_id=1516048728 instance=ExtResource("1_ft10e")]
-position = Vector2(324, 372)
+position = Vector2(324, 374)
 
 [node name="Chao66" parent="." unique_id=149689410 instance=ExtResource("1_ft10e")]
-position = Vector2(370, 372)
+position = Vector2(370, 374)
 
 [node name="Chao67" parent="." unique_id=1304584856 instance=ExtResource("1_ft10e")]
-position = Vector2(416, 372)
+position = Vector2(416, 374)
 
 [node name="Chao68" parent="." unique_id=917031725 instance=ExtResource("1_ft10e")]
-position = Vector2(232, 466)
+position = Vector2(232, 465)
 
 [node name="Chao69" parent="." unique_id=1659539053 instance=ExtResource("1_ft10e")]
-position = Vector2(278, 466)
+position = Vector2(278, 465)
 
 [node name="Chao70" parent="." unique_id=310599303 instance=ExtResource("1_ft10e")]
-position = Vector2(324, 466)
+position = Vector2(324, 465)
 
 [node name="Chao71" parent="." unique_id=166306501 instance=ExtResource("1_ft10e")]
-position = Vector2(370, 466)
+position = Vector2(370, 465)
 
 [node name="Chao72" parent="." unique_id=1624879533 instance=ExtResource("1_ft10e")]
-position = Vector2(416, 466)
+position = Vector2(416, 465)
 
 [node name="Parede" parent="." unique_id=315426637 instance=ExtResource("3_erodb")]
 position = Vector2(305, 27)
@@ -394,13 +412,13 @@ position = Vector2(508, 419)
 position = Vector2(554, 419)
 
 [node name="Chao76" parent="." unique_id=91412347 instance=ExtResource("1_ft10e")]
-position = Vector2(554, 466)
+position = Vector2(554, 465)
 
 [node name="Chao77" parent="." unique_id=771677734 instance=ExtResource("1_ft10e")]
-position = Vector2(554, 513)
+position = Vector2(554, 511)
 
 [node name="Chao78" parent="." unique_id=1317487386 instance=ExtResource("1_ft10e")]
-position = Vector2(600, 513)
+position = Vector2(600, 511)
 
 [node name="Chao79" parent="." unique_id=1216313508 instance=ExtResource("1_ft10e")]
 position = Vector2(462, 100)
@@ -412,49 +430,52 @@ position = Vector2(508, 100)
 position = Vector2(554, 100)
 
 [node name="Chao82" parent="." unique_id=1917950680 instance=ExtResource("1_ft10e")]
-position = Vector2(554, 53)
+position = Vector2(554, 54)
 
 [node name="Chao83" parent="." unique_id=19732862 instance=ExtResource("1_ft10e")]
-position = Vector2(554, 6)
+position = Vector2(554, 8)
 
 [node name="Chao84" parent="." unique_id=744268116 instance=ExtResource("1_ft10e")]
-position = Vector2(600, 6)
+position = Vector2(600, 8)
 
 [node name="Chao85" parent="." unique_id=1381766050 instance=ExtResource("1_ft10e")]
-position = Vector2(646, 6)
+position = Vector2(646, 8)
 
 [node name="Chao86" parent="." unique_id=1831831877 instance=ExtResource("1_ft10e")]
-position = Vector2(646, 513)
+position = Vector2(646, 511)
 
 [node name="Chao87" parent="." unique_id=1668301374 instance=ExtResource("1_ft10e")]
-position = Vector2(692, 513)
+position = Vector2(692, 511)
 
 [node name="Chao88" parent="." unique_id=557453132 instance=ExtResource("1_ft10e")]
-position = Vector2(692, 6)
+position = Vector2(692, 8)
 
 [node name="Chao89" parent="." unique_id=594511767 instance=ExtResource("1_ft10e")]
-position = Vector2(738, 6)
+position = Vector2(738, 8)
 
 [node name="Chao90" parent="." unique_id=207796139 instance=ExtResource("1_ft10e")]
-position = Vector2(738, 513)
+position = Vector2(738, 511)
 
 [node name="Rampa7" parent="." unique_id=1017472131 instance=ExtResource("2_itl16")]
-position = Vector2(631, -39)
+position = Vector2(631, -34)
+
+[node name="Rampa9" parent="." unique_id=694793043 instance=ExtResource("2_itl16")]
+position = Vector2(631, -38)
 
 [node name="Rampa8" parent="." unique_id=459766224 instance=ExtResource("2_itl16")]
-position = Vector2(631, 7)
+position = Vector2(631, 11)
 
 [node name="Rampa11" parent="." unique_id=651297720 instance=ExtResource("2_itl16")]
 position = Vector2(631, 329)
 
 [node name="Rampa12" parent="." unique_id=875224312 instance=ExtResource("2_itl16")]
-position = Vector2(631, 375)
+position = Vector2(631, 374)
 
 [node name="Chao91" parent="." unique_id=1784995349 instance=ExtResource("1_ft10e")]
 position = Vector2(738, 191)
 
 [node name="Chao92" parent="." unique_id=1545803180 instance=ExtResource("1_ft10e")]
-position = Vector2(738, 238)
+position = Vector2(738, 240)
 
 [node name="Chao93" parent="." unique_id=2011626599 instance=ExtResource("1_ft10e")]
 position = Vector2(738, 285)
@@ -466,16 +487,16 @@ position = Vector2(738, 332)
 position = Vector2(738, 378)
 
 [node name="Chao96" parent="." unique_id=289751764 instance=ExtResource("1_ft10e")]
-position = Vector2(738, 145)
+position = Vector2(738, 148)
 
 [node name="Chao97" parent="." unique_id=165979273 instance=ExtResource("1_ft10e")]
 position = Vector2(692, 191)
 
 [node name="Chao98" parent="." unique_id=1597441450 instance=ExtResource("1_ft10e")]
-position = Vector2(692, 238)
+position = Vector2(692, 240)
 
 [node name="Chao99" parent="." unique_id=1933005194 instance=ExtResource("1_ft10e")]
-position = Vector2(692, 285)
+position = Vector2(692, 286)
 
 [node name="Chao100" parent="." unique_id=1599516449 instance=ExtResource("1_ft10e")]
 position = Vector2(692, 332)
@@ -484,16 +505,16 @@ position = Vector2(692, 332)
 position = Vector2(692, 378)
 
 [node name="Chao102" parent="." unique_id=870651433 instance=ExtResource("1_ft10e")]
-position = Vector2(692, 145)
+position = Vector2(692, 148)
 
 [node name="Chao103" parent="." unique_id=840241325 instance=ExtResource("1_ft10e")]
-position = Vector2(784, 191)
+position = Vector2(784, 194)
 
 [node name="Chao104" parent="." unique_id=1922171644 instance=ExtResource("1_ft10e")]
-position = Vector2(784, 238)
+position = Vector2(784, 240)
 
 [node name="Chao105" parent="." unique_id=809090178 instance=ExtResource("1_ft10e")]
-position = Vector2(784, 285)
+position = Vector2(784, 286)
 
 [node name="Chao106" parent="." unique_id=1852401601 instance=ExtResource("1_ft10e")]
 position = Vector2(784, 332)
@@ -502,13 +523,13 @@ position = Vector2(784, 332)
 position = Vector2(784, 378)
 
 [node name="Chao108" parent="." unique_id=999589423 instance=ExtResource("1_ft10e")]
-position = Vector2(784, 145)
+position = Vector2(784, 148)
 
 [node name="Chao109" parent="." unique_id=905582159 instance=ExtResource("1_ft10e")]
-position = Vector2(830, 191)
+position = Vector2(830, 193)
 
 [node name="Chao110" parent="." unique_id=1557134777 instance=ExtResource("1_ft10e")]
-position = Vector2(830, 238)
+position = Vector2(830, 240)
 
 [node name="Chao157" parent="." unique_id=654570822 instance=ExtResource("1_ft10e")]
 position = Vector2(876, 238)
@@ -520,7 +541,7 @@ position = Vector2(922, 238)
 position = Vector2(925, 238)
 
 [node name="Chao111" parent="." unique_id=908330356 instance=ExtResource("1_ft10e")]
-position = Vector2(830, 285)
+position = Vector2(830, 286)
 
 [node name="Chao112" parent="." unique_id=1948095590 instance=ExtResource("1_ft10e")]
 position = Vector2(830, 332)
@@ -529,22 +550,22 @@ position = Vector2(830, 332)
 position = Vector2(830, 378)
 
 [node name="Chao114" parent="." unique_id=755291449 instance=ExtResource("1_ft10e")]
-position = Vector2(830, 145)
+position = Vector2(830, 148)
 
 [node name="Parede7" parent="." unique_id=1104171322 instance=ExtResource("3_erodb")]
-position = Vector2(627, 119)
+position = Vector2(627, 121)
 
 [node name="Parede8" parent="." unique_id=2029862667 instance=ExtResource("3_erodb")]
-position = Vector2(673, 119)
+position = Vector2(673, 121)
 
 [node name="Parede9" parent="." unique_id=409294352 instance=ExtResource("3_erodb")]
-position = Vector2(764, 118)
+position = Vector2(764, 121)
 
 [node name="Parede10" parent="." unique_id=1933756981 instance=ExtResource("3_erodb")]
-position = Vector2(626, 259)
+position = Vector2(627, 259)
 
 [node name="Parede11" parent="." unique_id=1402281965 instance=ExtResource("3_erodb")]
-position = Vector2(672, 259)
+position = Vector2(673, 259)
 
 [node name="Parede12" parent="." unique_id=404419219 instance=ExtResource("3_erodb")]
 position = Vector2(764, 259)
