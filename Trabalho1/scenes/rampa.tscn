@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://ddguiwalija2c"]
 
+[ext_resource type="Script" uid="uid://bjuc8e0veb0im" path="res://scripts/rampa.gd" id="1_0wgun"]
 [ext_resource type="Texture2D" uid="uid://hgxbdi0k0tb6" path="res://sprites/floor_01.png" id="1_ry6ll"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0jfm"]
 size = Vector2(46, 46)
 
 [node name="Rampa" type="Area2D" unique_id=1017472131]
+script = ExtResource("1_0wgun")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1487175510]
 position = Vector2(174.00002, 155.00002)
@@ -15,3 +17,6 @@ texture = ExtResource("1_ry6ll")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1799130393]
 position = Vector2(174, 155)
 shape = SubResource("RectangleShape2D_h0jfm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
