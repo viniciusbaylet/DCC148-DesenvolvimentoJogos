@@ -10,12 +10,11 @@ radius = 11.045361
 script = ExtResource("1_g2els")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=486312925]
-position = Vector2(92, 105)
+position = Vector2(2.3841858e-07, -1.9073486e-06)
 scale = Vector2(0.6875, 0.6249999)
 texture = ExtResource("2_g2els")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2009918518]
-position = Vector2(92, 105)
 shape = SubResource("CircleShape2D_h0jfm")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=279286596]

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://ccg62hrpjsbl1"]
+
+[ext_resource type="Texture2D" uid="uid://b54jvx0rkqh5m" path="res://sprites/finishline.jpg" id="1_maa2l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0jfm"]
+size = Vector2(46, 46)
+
+[node name="LinhaChegada" type="Area2D" unique_id=627401969]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1269366734]
+position = Vector2(-9.536743e-07, 1.9073486e-06)
+scale = Vector2(0.04972973, 0.04972973)
+texture = ExtResource("1_maa2l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1518498237]
+shape = SubResource("RectangleShape2D_h0jfm")

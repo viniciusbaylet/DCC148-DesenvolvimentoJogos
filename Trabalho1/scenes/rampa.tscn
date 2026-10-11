@@ -4,18 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://hgxbdi0k0tb6" path="res://sprites/floor_01.png" id="1_ry6ll"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0jfm"]
-size = Vector2(46, 46)
+size = Vector2(145.5, 47)
 
 [node name="Rampa" type="Area2D" unique_id=1017472131]
 script = ExtResource("1_0wgun")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1487175510]
-position = Vector2(174.00002, 155.00002)
-scale = Vector2(0.09, 0.09)
+position = Vector2(-0.5, -1.9073486e-06)
+scale = Vector2(0.28320313, 0.09)
 texture = ExtResource("1_ry6ll")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1799130393]
-position = Vector2(174, 155)
+position = Vector2(-0.25, -0.5)
 shape = SubResource("RectangleShape2D_h0jfm")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
