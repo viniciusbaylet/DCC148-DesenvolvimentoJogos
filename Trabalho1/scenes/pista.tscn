@@ -26,7 +26,7 @@ position = Vector2(24, 524)
 position = Vector2(24, 570)
 
 [node name="Chao7" parent="." unique_id=1876629905 instance=ExtResource("1_ft10e")]
-position = Vector2(25, 616)
+position = Vector2(24, 616)
 
 [node name="Chao160" parent="." unique_id=82208461 instance=ExtResource("1_ft10e")]
 position = Vector2(24, 624)
@@ -345,6 +345,51 @@ position = Vector2(389, 479)
 
 [node name="Parede6" parent="." unique_id=148324149 instance=ExtResource("3_erodb")]
 position = Vector2(344, 479)
+
+[node name="Parede14" parent="." unique_id=1405044496 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 624)
+
+[node name="Parede15" parent="." unique_id=415346956 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 578)
+
+[node name="Parede16" parent="." unique_id=602752994 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 532)
+
+[node name="Parede17" parent="." unique_id=1227064818 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 486)
+
+[node name="Parede18" parent="." unique_id=911207585 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 440)
+
+[node name="Parede19" parent="." unique_id=1701667451 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 394)
+
+[node name="Parede20" parent="." unique_id=1922062781 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 348)
+
+[node name="Parede21" parent="." unique_id=1803088662 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 302)
+
+[node name="Parede22" parent="." unique_id=927076082 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 256)
+
+[node name="Parede23" parent="." unique_id=1353140932 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 210)
+
+[node name="Parede24" parent="." unique_id=1105097813 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 164)
+
+[node name="Parede25" parent="." unique_id=1068147268 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 118)
+
+[node name="Parede26" parent="." unique_id=675020797 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 72)
+
+[node name="Parede27" parent="." unique_id=255953398 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 26)
+
+[node name="Parede28" parent="." unique_id=978675028 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 23)
 
 [node name="Chao73" parent="." unique_id=1230494554 instance=ExtResource("1_ft10e")]
 position = Vector2(528, 479)
