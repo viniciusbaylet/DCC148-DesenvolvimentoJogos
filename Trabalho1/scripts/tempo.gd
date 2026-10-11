@@ -13,5 +13,6 @@ func _process(delta: float) -> void:
 	label_tempo.text = "Tempo: " + str(tempo_restante)
 
 func _on_timer_timeout() -> void:
-	print("O tempo acabou!")
-	get_tree().reload_current_scene() # Reinicia a fase
+	var game_over = get_parent().get_node("GameOver")
+	if game_over:
+		game_over.mostrar_game_over("O tempo acabou!")

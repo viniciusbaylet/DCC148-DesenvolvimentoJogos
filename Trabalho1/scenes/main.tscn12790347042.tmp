@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://dcbxv1e6b2pdy"]
+
+[ext_resource type="PackedScene" uid="uid://3pppvyx063sp" path="res://scenes/pista.tscn" id="1_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://ddocu6cg1falf" path="res://scenes/player.tscn" id="2_sugp2"]
+[ext_resource type="PackedScene" uid="uid://cq1c8y4twspds" path="res://scenes/tempo.tscn" id="3_sugp2"]
+[ext_resource type="PackedScene" uid="uid://c5u72rp3upxyh" path="res://scenes/game_over.tscn" id="4_jyhfs"]
+
+[sub_resource type="GDScript" id="GDScript_jyhfs"]
+script/source = "extends StaticBody2D
+
+@onready var timer: Timer = $Timer
+@onready var label_tempo: Label = $Label # Substitua pelo caminho exato do seu Label na cena
+@onready var game_over_screen: CanvasLayer = $GameOverScreen # Substitua pelo caminho da sua tela de Game Over
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	get_tree().paused = false
+	game_over_screen.visible = false
+	
+	timer.timeout.connect(_on_timer_timeout)
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	var tempo_restante = ceil(timer.time_left)
+	label_tempo.text = \"Tempo: \" + str(tempo_restante)
+
+# Função chamada quando o tempo acaba
+func _on_timer_timeout() -> void:
+	acionar_game_over(\"O tempo acabou!\")
+
+# Função central para chamar o Game Over de qualquer lugar da fase
+fn acionar_game_over(motivo: String) -> void:
+	var reason_label = game_over_screen.get_node(\"ColorRect/VBoxContainer/Label2\")
+	if reason_label:
+		reason_label.text = motivo
+		
+	game_over_screen.visible = true
+	get_tree().paused = true # Pausa o jogo inteiro
+"
+
+[node name="Main" type="StaticBody2D" unique_id=439537688]
+script = SubResource("GDScript_jyhfs")
+
+[node name="Pista" parent="." unique_id=1142610319 instance=ExtResource("1_0wfyh")]
+
+[node name="Player" parent="." unique_id=25847643 instance=ExtResource("2_sugp2")]
+position = Vector2(70, 480)
+speed = null
+acceleration = null
+friction = null
+
+[node name="Tempo" parent="." unique_id=205442638 instance=ExtResource("3_sugp2")]
+
+[node name="GameOver" parent="." unique_id=1304702758 instance=ExtResource("4_jyhfs")]

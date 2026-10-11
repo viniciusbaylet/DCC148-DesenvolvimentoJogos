@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://c5u72rp3upxyh"]
+
+[ext_resource type="Script" uid="uid://dyplad4cbqqqd" path="res://scripts/game_over.gd" id="1_wqhvx"]
+[ext_resource type="FontFile" uid="uid://b8glb8fxmfoc8" path="res://sprites/digital-7.ttf" id="1_xeevv"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nq2bd"]
+bg_color = Color(1, 0.33444092, 0.34475687, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jyhfs"]
+bg_color = Color(0.94199777, 0, 0.18826678, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
+
+[node name="GameOver" type="CanvasLayer" unique_id=1304702758]
+process_mode = 3
+script = ExtResource("1_wqhvx")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1524573335]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.08627451)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect" unique_id=553396057]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="Label" type="Label" parent="ColorRect/VBoxContainer" unique_id=674452509]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_xeevv")
+theme_override_font_sizes/font_size = 160
+text = "GAME OVER"
+
+[node name="Label2" type="Label" parent="ColorRect/VBoxContainer" unique_id=685646156]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_xeevv")
+theme_override_font_sizes/font_size = 32
+text = "O tempo acabou"
+
+[node name="RestartButton" type="Button" parent="ColorRect/VBoxContainer" unique_id=2024376137]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/normal = SubResource("StyleBoxFlat_nq2bd")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jyhfs")
+text = "Tentar Novamente"
+
+[connection signal="pressed" from="ColorRect/VBoxContainer/RestartButton" to="." method="_on_restart_button_pressed"]
