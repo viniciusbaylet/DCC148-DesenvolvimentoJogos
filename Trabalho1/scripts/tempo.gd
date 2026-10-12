@@ -17,6 +17,6 @@ func _process(delta: float) -> void:
 
 func _on_timer_timeout() -> void:
 	label_tempo.text = "Tempo: 0.0"
-	var game_over = get_parent().get_node("GameOver")
-	if game_over:
-		game_over.mostrar_game_over("O tempo acabou!")
+	var tela_final = get_parent().get_node("Final")
+	if tela_final:
+		tela_final.mostrar_final("Game Over", "O tempo acabou!", "Tentar Novamente")

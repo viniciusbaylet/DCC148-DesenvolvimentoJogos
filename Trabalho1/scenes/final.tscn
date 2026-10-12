@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c5u72rp3upxyh"]
 
-[ext_resource type="Script" uid="uid://dyplad4cbqqqd" path="res://scripts/game_over.gd" id="1_wqhvx"]
+[ext_resource type="Script" uid="uid://dyplad4cbqqqd" path="res://scripts/final.gd" id="1_qkvop"]
 [ext_resource type="FontFile" uid="uid://b8glb8fxmfoc8" path="res://sprites/digital-7.ttf" id="1_xeevv"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nq2bd"]
@@ -36,9 +36,9 @@ expand_margin_top = 10.0
 expand_margin_right = 10.0
 expand_margin_bottom = 10.0
 
-[node name="GameOver" type="CanvasLayer" unique_id=1304702758]
+[node name="Final" type="CanvasLayer" unique_id=1304702758]
 process_mode = 3
-script = ExtResource("1_wqhvx")
+script = ExtResource("1_qkvop")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1524573335]
 anchors_preset = 15

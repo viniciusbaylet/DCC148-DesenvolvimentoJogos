@@ -391,6 +391,99 @@ position = Vector2(-22, 26)
 [node name="Parede28" parent="." unique_id=978675028 instance=ExtResource("3_erodb")]
 position = Vector2(-22, 23)
 
+[node name="Parede37" parent="." unique_id=1601512250 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 625)
+
+[node name="Parede38" parent="." unique_id=780744789 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 579)
+
+[node name="Parede39" parent="." unique_id=96547418 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 533)
+
+[node name="Parede40" parent="." unique_id=945167557 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 487)
+
+[node name="Parede41" parent="." unique_id=1492936085 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 441)
+
+[node name="Parede42" parent="." unique_id=1372495561 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 395)
+
+[node name="Parede43" parent="." unique_id=343388652 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 349)
+
+[node name="Parede44" parent="." unique_id=2097805039 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 303)
+
+[node name="Parede45" parent="." unique_id=1497078526 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 257)
+
+[node name="Parede46" parent="." unique_id=1371081014 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 211)
+
+[node name="Parede47" parent="." unique_id=171724627 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 165)
+
+[node name="Parede48" parent="." unique_id=616263187 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 119)
+
+[node name="Parede49" parent="." unique_id=1956716847 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 73)
+
+[node name="Parede50" parent="." unique_id=1152047238 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 27)
+
+[node name="Parede51" parent="." unique_id=1789488164 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 23)
+
+[node name="Parede29" parent="." unique_id=2066686596 instance=ExtResource("3_erodb")]
+position = Vector2(116, -23)
+
+[node name="Parede30" parent="." unique_id=1051811384 instance=ExtResource("3_erodb")]
+position = Vector2(70, -23)
+
+[node name="Parede31" parent="." unique_id=1275815814 instance=ExtResource("3_erodb")]
+position = Vector2(24, -23)
+
+[node name="Parede32" parent="." unique_id=1046116237 instance=ExtResource("3_erodb")]
+position = Vector2(-22, -23)
+
+[node name="Parede33" parent="." unique_id=83504959 instance=ExtResource("3_erodb")]
+position = Vector2(116, 670)
+
+[node name="Parede34" parent="." unique_id=1441457286 instance=ExtResource("3_erodb")]
+position = Vector2(70, 670)
+
+[node name="Parede35" parent="." unique_id=271082685 instance=ExtResource("3_erodb")]
+position = Vector2(24, 670)
+
+[node name="Parede36" parent="." unique_id=1312756733 instance=ExtResource("3_erodb")]
+position = Vector2(-22, 670)
+
+[node name="Parede56" parent="." unique_id=889864435 instance=ExtResource("3_erodb")]
+position = Vector2(1175, 671)
+
+[node name="Parede57" parent="." unique_id=666018268 instance=ExtResource("3_erodb")]
+position = Vector2(1129, 671)
+
+[node name="Parede58" parent="." unique_id=260933627 instance=ExtResource("3_erodb")]
+position = Vector2(1083, 671)
+
+[node name="Parede59" parent="." unique_id=863373945 instance=ExtResource("3_erodb")]
+position = Vector2(1037, 671)
+
+[node name="Parede52" parent="." unique_id=790321107 instance=ExtResource("3_erodb")]
+position = Vector2(1175, -23)
+
+[node name="Parede53" parent="." unique_id=1593582549 instance=ExtResource("3_erodb")]
+position = Vector2(1129, -23)
+
+[node name="Parede54" parent="." unique_id=903686867 instance=ExtResource("3_erodb")]
+position = Vector2(1083, -23)
+
+[node name="Parede55" parent="." unique_id=1469975675 instance=ExtResource("3_erodb")]
+position = Vector2(1037, -23)
+
 [node name="Chao73" parent="." unique_id=1230494554 instance=ExtResource("1_ft10e")]
 position = Vector2(528, 479)
 

@@ -1,5 +1,6 @@
 extends CanvasLayer
 
+@onready var reason_title: Label = $ColorRect/VBoxContainer/Label
 @onready var reason_label: Label = $ColorRect/VBoxContainer/Label2
 @onready var restart_button: Button = $ColorRect/VBoxContainer/RestartButton
 
@@ -11,10 +12,12 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-func mostrar_game_over(motivo: String) -> void:
+func mostrar_final(titulo: String, motivo: String, texto_botao: String) -> void:
+	reason_title.text = titulo
 	reason_label.text = motivo
+	restart_button.text = texto_botao
 	visible = true
-	get_tree().paused = true 
+	get_tree().paused = true
 	
 func _on_restart_button_pressed() -> void:
 	get_tree().paused = false
