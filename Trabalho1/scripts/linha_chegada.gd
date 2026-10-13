@@ -25,4 +25,4 @@ func _on_body_entered(body: Node2D) -> void:
 				timer.stop()
 				
 				if tela_final:
-					tela_final.mostrar_final("VITORIA!", "Você venceu, parabéns você conseguiu completar o percurso", "Recomeçar")
+					tela_final.mostrar_final("VITORIA!", "Voce venceu, parabens voce conseguiu completar o percurso", "Recomeçar")
