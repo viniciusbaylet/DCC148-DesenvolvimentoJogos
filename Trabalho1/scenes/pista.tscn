@@ -5,6 +5,25 @@
 [ext_resource type="PackedScene" uid="uid://bsmx6s1uk1mub" path="res://scenes/parede.tscn" id="3_erodb"]
 [ext_resource type="PackedScene" uid="uid://ccg62hrpjsbl1" path="res://scenes/linha_chegada.tscn" id="4_itl16"]
 [ext_resource type="PackedScene" uid="uid://ca1c2yahavtjh" path="res://scenes/abismo.tscn" id="5_erodb"]
+[ext_resource type="PackedScene" uid="uid://dhlxmoa6tgf12" path="res://scenes/inimigo.tscn" id="6_12jx3"]
+
+[sub_resource type="Curve2D" id="Curve2D_12jx3"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 895, 282, 0, 0, 0, 0, 895, 351, 0, 0, 0, 0, 895, 282)
+}
+point_count = 3
+
+[sub_resource type="Curve2D" id="Curve2D_4e6bw"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 298, 434, 0, 0, 0, 0, 298, 525, 0, 0, 0, 0, 482, 525, 0, 0, 0, 0, 482, 434, 0, 0, 0, 0, 298, 434)
+}
+point_count = 5
+
+[sub_resource type="Curve2D" id="Curve2D_6srjx"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 298, 205, 0, 0, 0, 0, 298, 114, 0, 0, 0, 0, 482, 114, 0, 0, 0, 0, 482, 205, 0, 0, 0, 0, 298, 205)
+}
+point_count = 5
 
 [node name="Pista" type="Node2D" unique_id=1142610319]
 
@@ -1155,3 +1174,30 @@ position = Vector2(236, 409)
 
 [node name="Abismo42" parent="." unique_id=1073867631 instance=ExtResource("5_erodb")]
 position = Vector2(236, 363)
+
+[node name="Trajetoria3" type="Path2D" parent="." unique_id=6603870]
+curve = SubResource("Curve2D_12jx3")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Trajetoria3" unique_id=441729518]
+position = Vector2(895, 282)
+rotation = 1.5707964
+
+[node name="Inimigo" parent="Trajetoria3/PathFollow2D" unique_id=568653154 instance=ExtResource("6_12jx3")]
+
+[node name="Trajetoria4" type="Path2D" parent="." unique_id=1829618789]
+curve = SubResource("Curve2D_4e6bw")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Trajetoria4" unique_id=688543657]
+position = Vector2(298, 434)
+rotation = 1.5707964
+
+[node name="Inimigo" parent="Trajetoria4/PathFollow2D" unique_id=755568773 instance=ExtResource("6_12jx3")]
+
+[node name="Trajetoria5" type="Path2D" parent="." unique_id=561033587]
+curve = SubResource("Curve2D_6srjx")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Trajetoria5" unique_id=421477518]
+position = Vector2(298, 205)
+rotation = -1.5707964
+
+[node name="Inimigo" parent="Trajetoria5/PathFollow2D" unique_id=1845009945 instance=ExtResource("6_12jx3")]
