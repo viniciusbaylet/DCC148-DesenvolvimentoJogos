@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://ddguiwalija2c"]
 
 [ext_resource type="Script" uid="uid://bjuc8e0veb0im" path="res://scripts/rampa.gd" id="1_0wgun"]
-[ext_resource type="Texture2D" uid="uid://hgxbdi0k0tb6" path="res://sprites/floor_01.png" id="1_ry6ll"]
+[ext_resource type="Texture2D" uid="uid://dbarsgtqodlkg" path="res://sprites/sand.jpg" id="2_0wgun"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0jfm"]
 size = Vector2(145.5, 47)
@@ -10,9 +10,9 @@ size = Vector2(145.5, 47)
 script = ExtResource("1_0wgun")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1487175510]
-position = Vector2(-0.5, -1.9073486e-06)
-scale = Vector2(0.28320313, 0.09)
-texture = ExtResource("1_ry6ll")
+position = Vector2(-0.5000026, -0.49999887)
+scale = Vector2(0.059232034, 0.019199345)
+texture = ExtResource("2_0wgun")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1799130393]
 position = Vector2(-0.25, -0.5)
