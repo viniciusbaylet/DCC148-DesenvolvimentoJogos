@@ -734,128 +734,200 @@ position = Vector2(206, 545)
 [node name="Abismo28" parent="." unique_id=575485743 instance=ExtResource("5_erodb")]
 position = Vector2(236, 545)
 
-[node name="Abismo29" parent="." unique_id=1185393204 instance=ExtResource("5_erodb")]
-position = Vector2(236, 591)
-
-[node name="Abismo30" parent="." unique_id=890786430 instance=ExtResource("5_erodb")]
-position = Vector2(266, 593)
-
 [node name="Abismo31" parent="." unique_id=1154947188 instance=ExtResource("5_erodb")]
-position = Vector2(296, 593)
+position = Vector2(274, 585.00006)
+rotation = -1.5703759
 
-[node name="Abismo32" parent="." unique_id=668949775 instance=ExtResource("5_erodb")]
-position = Vector2(326, 593)
+[node name="Abismo151" parent="." unique_id=256651163 instance=ExtResource("5_erodb")]
+position = Vector2(320, 585.00006)
+rotation = -1.5703759
 
-[node name="Abismo33" parent="." unique_id=205327528 instance=ExtResource("5_erodb")]
-position = Vector2(356, 593)
+[node name="Abismo152" parent="." unique_id=599870191 instance=ExtResource("5_erodb")]
+position = Vector2(366, 585)
+rotation = -1.5703759
 
-[node name="Abismo34" parent="." unique_id=1936939822 instance=ExtResource("5_erodb")]
-position = Vector2(386, 593)
+[node name="Abismo153" parent="." unique_id=1340908553 instance=ExtResource("5_erodb")]
+position = Vector2(412, 585)
+rotation = -1.5703759
 
-[node name="Abismo35" parent="." unique_id=1808727493 instance=ExtResource("5_erodb")]
-position = Vector2(416, 593)
+[node name="Abismo154" parent="." unique_id=1776467441 instance=ExtResource("5_erodb")]
+position = Vector2(458.00003, 585.00006)
+rotation = -1.5703759
 
-[node name="Abismo36" parent="." unique_id=970162047 instance=ExtResource("5_erodb")]
-position = Vector2(446, 593)
+[node name="Abismo155" parent="." unique_id=1948212967 instance=ExtResource("5_erodb")]
+position = Vector2(504.00003, 585)
+rotation = -1.5703759
 
-[node name="Abismo37" parent="." unique_id=421271807 instance=ExtResource("5_erodb")]
-position = Vector2(476, 593)
+[node name="Abismo32" parent="." unique_id=966901121 instance=ExtResource("5_erodb")]
+position = Vector2(598, 682.00006)
+rotation = -1.5703759
 
-[node name="Abismo38" parent="." unique_id=1197517598 instance=ExtResource("5_erodb")]
-position = Vector2(506, 593)
+[node name="Abismo156" parent="." unique_id=106367717 instance=ExtResource("5_erodb")]
+position = Vector2(644, 682.00006)
+rotation = -1.5703759
 
-[node name="Abismo39" parent="." unique_id=286781556 instance=ExtResource("5_erodb")]
-position = Vector2(536, 593)
+[node name="Abismo157" parent="." unique_id=1326694655 instance=ExtResource("5_erodb")]
+position = Vector2(690, 682)
+rotation = -1.5703759
 
-[node name="Abismo43" parent="." unique_id=1198249776 instance=ExtResource("5_erodb")]
-position = Vector2(266, 363)
+[node name="Abismo158" parent="." unique_id=282285632 instance=ExtResource("5_erodb")]
+position = Vector2(736, 682)
+rotation = -1.5703759
 
-[node name="Abismo44" parent="." unique_id=1704464351 instance=ExtResource("5_erodb")]
-position = Vector2(296, 363)
+[node name="Abismo159" parent="." unique_id=1821342421 instance=ExtResource("5_erodb")]
+position = Vector2(782, 682.00006)
+rotation = -1.5703759
 
-[node name="Abismo45" parent="." unique_id=574866287 instance=ExtResource("5_erodb")]
-position = Vector2(326, 363)
+[node name="Abismo160" parent="." unique_id=1812329628 instance=ExtResource("5_erodb")]
+position = Vector2(828, 682)
+rotation = -1.5703759
 
-[node name="Abismo46" parent="." unique_id=796211591 instance=ExtResource("5_erodb")]
-position = Vector2(356, 363)
+[node name="Abismo33" parent="." unique_id=291680518 instance=ExtResource("5_erodb")]
+position = Vector2(274, 371.00006)
+rotation = -1.5703759
 
-[node name="Abismo47" parent="." unique_id=1559575270 instance=ExtResource("5_erodb")]
-position = Vector2(386, 363)
+[node name="Abismo164" parent="." unique_id=734574703 instance=ExtResource("5_erodb")]
+position = Vector2(320, 371.00006)
+rotation = -1.5703759
 
-[node name="Abismo48" parent="." unique_id=2061356356 instance=ExtResource("5_erodb")]
-position = Vector2(416, 363)
+[node name="Abismo165" parent="." unique_id=1921708174 instance=ExtResource("5_erodb")]
+position = Vector2(366, 371)
+rotation = -1.5703759
 
-[node name="Abismo49" parent="." unique_id=1882906711 instance=ExtResource("5_erodb")]
-position = Vector2(446, 363)
+[node name="Abismo166" parent="." unique_id=226699209 instance=ExtResource("5_erodb")]
+position = Vector2(412, 371)
+rotation = -1.5703759
 
-[node name="Abismo50" parent="." unique_id=377712747 instance=ExtResource("5_erodb")]
-position = Vector2(476, 363)
+[node name="Abismo167" parent="." unique_id=1168525642 instance=ExtResource("5_erodb")]
+position = Vector2(458, 371.00006)
+rotation = -1.5703759
 
-[node name="Abismo51" parent="." unique_id=678984632 instance=ExtResource("5_erodb")]
-position = Vector2(506, 363)
+[node name="Abismo168" parent="." unique_id=1475401859 instance=ExtResource("5_erodb")]
+position = Vector2(504, 371)
+rotation = -1.5703759
 
-[node name="Abismo52" parent="." unique_id=312556365 instance=ExtResource("5_erodb")]
-position = Vector2(536, 363)
+[node name="Abismo34" parent="." unique_id=28246668 instance=ExtResource("5_erodb")]
+position = Vector2(275, 265.00006)
+rotation = -1.5703759
 
-[node name="Abismo96" parent="." unique_id=626552943 instance=ExtResource("5_erodb")]
-position = Vector2(327, 273)
+[node name="Abismo171" parent="." unique_id=886836228 instance=ExtResource("5_erodb")]
+position = Vector2(321, 265.00006)
+rotation = -1.5703759
 
-[node name="Abismo97" parent="." unique_id=1082793373 instance=ExtResource("5_erodb")]
-position = Vector2(357, 273)
+[node name="Abismo172" parent="." unique_id=1499520643 instance=ExtResource("5_erodb")]
+position = Vector2(367, 265)
+rotation = -1.5703759
 
-[node name="Abismo98" parent="." unique_id=2098338888 instance=ExtResource("5_erodb")]
-position = Vector2(387, 273)
+[node name="Abismo173" parent="." unique_id=1459173414 instance=ExtResource("5_erodb")]
+position = Vector2(413, 265)
+rotation = -1.5703759
 
-[node name="Abismo99" parent="." unique_id=1835539632 instance=ExtResource("5_erodb")]
-position = Vector2(417, 273)
+[node name="Abismo174" parent="." unique_id=1760412913 instance=ExtResource("5_erodb")]
+position = Vector2(459, 265.00006)
+rotation = -1.5703759
 
-[node name="Abismo100" parent="." unique_id=350276753 instance=ExtResource("5_erodb")]
-position = Vector2(447, 273)
+[node name="Abismo175" parent="." unique_id=169948179 instance=ExtResource("5_erodb")]
+position = Vector2(505, 265)
+rotation = -1.5703759
 
-[node name="Abismo101" parent="." unique_id=35075793 instance=ExtResource("5_erodb")]
-position = Vector2(477, 273)
+[node name="Abismo35" parent="." unique_id=1704812232 instance=ExtResource("5_erodb")]
+position = Vector2(274, 57.00006)
+rotation = -1.5703759
 
-[node name="Abismo102" parent="." unique_id=1140879317 instance=ExtResource("5_erodb")]
-position = Vector2(507, 273)
+[node name="Abismo183" parent="." unique_id=1789520061 instance=ExtResource("5_erodb")]
+position = Vector2(320, 57.00006)
+rotation = -1.5703759
 
-[node name="Abismo103" parent="." unique_id=1974461247 instance=ExtResource("5_erodb")]
-position = Vector2(537, 273)
+[node name="Abismo184" parent="." unique_id=2122328654 instance=ExtResource("5_erodb")]
+position = Vector2(366, 57)
+rotation = -1.5703759
+
+[node name="Abismo185" parent="." unique_id=1319247630 instance=ExtResource("5_erodb")]
+position = Vector2(412, 57)
+rotation = -1.5703759
+
+[node name="Abismo186" parent="." unique_id=1435026157 instance=ExtResource("5_erodb")]
+position = Vector2(458, 57.00006)
+rotation = -1.5703759
+
+[node name="Abismo187" parent="." unique_id=228449816 instance=ExtResource("5_erodb")]
+position = Vector2(504, 57)
+rotation = -1.5703759
+
+[node name="Abismo36" parent="." unique_id=553860906 instance=ExtResource("5_erodb")]
+position = Vector2(599, -47.99994)
+rotation = -1.5703759
+
+[node name="Abismo188" parent="." unique_id=467047757 instance=ExtResource("5_erodb")]
+position = Vector2(645, -47.99994)
+rotation = -1.5703759
+
+[node name="Abismo189" parent="." unique_id=522386349 instance=ExtResource("5_erodb")]
+position = Vector2(691, -48)
+rotation = -1.5703759
+
+[node name="Abismo190" parent="." unique_id=581622842 instance=ExtResource("5_erodb")]
+position = Vector2(737, -48)
+rotation = -1.5703759
+
+[node name="Abismo191" parent="." unique_id=1964728386 instance=ExtResource("5_erodb")]
+position = Vector2(783, -47.99994)
+rotation = -1.5703759
+
+[node name="Abismo192" parent="." unique_id=1379498516 instance=ExtResource("5_erodb")]
+position = Vector2(829, -48)
+rotation = -1.5703759
+
+[node name="Abismo169" parent="." unique_id=459313475 instance=ExtResource("5_erodb")]
+position = Vector2(581, 417)
+rotation = -1.5703759
+
+[node name="Abismo170" parent="." unique_id=577779395 instance=ExtResource("5_erodb")]
+position = Vector2(626.99994, 417)
+rotation = -1.5703759
+
+[node name="Abismo176" parent="." unique_id=1045527743 instance=ExtResource("5_erodb")]
+position = Vector2(579, 219)
+rotation = -1.5703759
+
+[node name="Abismo177" parent="." unique_id=45485007 instance=ExtResource("5_erodb")]
+position = Vector2(624.99994, 219)
+rotation = -1.5703759
+
+[node name="Abismo178" parent="." unique_id=1968852527 instance=ExtResource("5_erodb")]
+position = Vector2(670.99994, 219)
+rotation = -1.5703759
+
+[node name="Abismo179" parent="." unique_id=1094794861 instance=ExtResource("5_erodb")]
+position = Vector2(715, 69)
+rotation = -1.5703759
+
+[node name="Abismo161" parent="." unique_id=1216676877 instance=ExtResource("5_erodb")]
+position = Vector2(904, 493.00006)
+rotation = -1.5703759
+
+[node name="Abismo162" parent="." unique_id=500917380 instance=ExtResource("5_erodb")]
+position = Vector2(950, 493)
+rotation = -1.5703759
+
+[node name="Abismo163" parent="." unique_id=1764326085 instance=ExtResource("5_erodb")]
+position = Vector2(991.00006, 355.00003)
+rotation = -1.5703759
+
+[node name="Abismo180" parent="." unique_id=1423282232 instance=ExtResource("5_erodb")]
+position = Vector2(991.00006, 235.00002)
+rotation = -1.5703759
+
+[node name="Abismo181" parent="." unique_id=2045168528 instance=ExtResource("5_erodb")]
+position = Vector2(900.00006, 146)
+rotation = -1.5703759
+
+[node name="Abismo182" parent="." unique_id=637873772 instance=ExtResource("5_erodb")]
+position = Vector2(946.00006, 146)
+rotation = -1.5703759
 
 [node name="Abismo104" parent="." unique_id=1436774977 instance=ExtResource("5_erodb")]
 position = Vector2(541, 227)
-
-[node name="Abismo105" parent="." unique_id=1249115930 instance=ExtResource("5_erodb")]
-position = Vector2(571, 227)
-
-[node name="Abismo56" parent="." unique_id=2025914532 instance=ExtResource("5_erodb")]
-position = Vector2(266, 49)
-
-[node name="Abismo57" parent="." unique_id=453616351 instance=ExtResource("5_erodb")]
-position = Vector2(296, 49)
-
-[node name="Abismo58" parent="." unique_id=1266770515 instance=ExtResource("5_erodb")]
-position = Vector2(326, 49)
-
-[node name="Abismo59" parent="." unique_id=1931498922 instance=ExtResource("5_erodb")]
-position = Vector2(356, 49)
-
-[node name="Abismo60" parent="." unique_id=1877195563 instance=ExtResource("5_erodb")]
-position = Vector2(386, 49)
-
-[node name="Abismo61" parent="." unique_id=185019572 instance=ExtResource("5_erodb")]
-position = Vector2(416, 49)
-
-[node name="Abismo62" parent="." unique_id=1120078265 instance=ExtResource("5_erodb")]
-position = Vector2(446, 49)
-
-[node name="Abismo63" parent="." unique_id=1127125611 instance=ExtResource("5_erodb")]
-position = Vector2(476, 49)
-
-[node name="Abismo64" parent="." unique_id=1348780045 instance=ExtResource("5_erodb")]
-position = Vector2(506, 49)
-
-[node name="Abismo65" parent="." unique_id=1229917572 instance=ExtResource("5_erodb")]
-position = Vector2(536, 49)
 
 [node name="Abismo71" parent="." unique_id=549360629 instance=ExtResource("5_erodb")]
 position = Vector2(541, 95)
@@ -872,62 +944,11 @@ position = Vector2(561, 3)
 [node name="Abismo75" parent="." unique_id=2119188109 instance=ExtResource("5_erodb")]
 position = Vector2(561, -43)
 
-[node name="Abismo76" parent="." unique_id=698796808 instance=ExtResource("5_erodb")]
-position = Vector2(591, -56)
-
-[node name="Abismo77" parent="." unique_id=2016849519 instance=ExtResource("5_erodb")]
-position = Vector2(621, -56)
-
-[node name="Abismo78" parent="." unique_id=1898596889 instance=ExtResource("5_erodb")]
-position = Vector2(651, -56)
-
-[node name="Abismo79" parent="." unique_id=552175680 instance=ExtResource("5_erodb")]
-position = Vector2(681, -56)
-
-[node name="Abismo80" parent="." unique_id=2087351093 instance=ExtResource("5_erodb")]
-position = Vector2(711, -56)
-
-[node name="Abismo81" parent="." unique_id=74867101 instance=ExtResource("5_erodb")]
-position = Vector2(741, -56)
-
-[node name="Abismo82" parent="." unique_id=145124329 instance=ExtResource("5_erodb")]
-position = Vector2(771, -56)
-
-[node name="Abismo83" parent="." unique_id=829134533 instance=ExtResource("5_erodb")]
-position = Vector2(801, -56)
-
-[node name="Abismo84" parent="." unique_id=808796870 instance=ExtResource("5_erodb")]
-position = Vector2(831, -56)
-
 [node name="Abismo85" parent="." unique_id=411444149 instance=ExtResource("5_erodb")]
-position = Vector2(861, -56)
-
-[node name="Abismo131" parent="." unique_id=1909745431 instance=ExtResource("5_erodb")]
-position = Vector2(650, 690)
-
-[node name="Abismo132" parent="." unique_id=1808345759 instance=ExtResource("5_erodb")]
-position = Vector2(680, 690)
-
-[node name="Abismo133" parent="." unique_id=360591988 instance=ExtResource("5_erodb")]
-position = Vector2(710, 690)
-
-[node name="Abismo134" parent="." unique_id=92841435 instance=ExtResource("5_erodb")]
-position = Vector2(740, 690)
-
-[node name="Abismo135" parent="." unique_id=1556779720 instance=ExtResource("5_erodb")]
-position = Vector2(770, 690)
-
-[node name="Abismo136" parent="." unique_id=552377436 instance=ExtResource("5_erodb")]
-position = Vector2(800, 690)
-
-[node name="Abismo137" parent="." unique_id=1264655995 instance=ExtResource("5_erodb")]
-position = Vector2(830, 690)
-
-[node name="Abismo138" parent="." unique_id=808344099 instance=ExtResource("5_erodb")]
-position = Vector2(860, 690)
+position = Vector2(862, -46)
 
 [node name="Abismo139" parent="." unique_id=1112445521 instance=ExtResource("5_erodb")]
-position = Vector2(866, 657)
+position = Vector2(866, 685)
 
 [node name="Abismo2" parent="." unique_id=90997205 instance=ExtResource("5_erodb")]
 position = Vector2(176, 591)
@@ -936,19 +957,10 @@ position = Vector2(176, 591)
 position = Vector2(176, 637)
 
 [node name="Abismo12" parent="." unique_id=342070673 instance=ExtResource("5_erodb")]
-position = Vector2(866, 533)
+position = Vector2(866, 547)
 
 [node name="Abismo140" parent="." unique_id=1955849642 instance=ExtResource("5_erodb")]
 position = Vector2(866, 501)
-
-[node name="Abismo141" parent="." unique_id=1531627301 instance=ExtResource("5_erodb")]
-position = Vector2(896, 501)
-
-[node name="Abismo142" parent="." unique_id=859420504 instance=ExtResource("5_erodb")]
-position = Vector2(926, 501)
-
-[node name="Abismo143" parent="." unique_id=145022541 instance=ExtResource("5_erodb")]
-position = Vector2(956, 501)
 
 [node name="Abismo144" parent="." unique_id=1027392445 instance=ExtResource("5_erodb")]
 position = Vector2(959, 455)
@@ -959,62 +971,38 @@ position = Vector2(959, 409)
 [node name="Abismo146" parent="." unique_id=792881079 instance=ExtResource("5_erodb")]
 position = Vector2(959, 363)
 
-[node name="Abismo147" parent="." unique_id=814263238 instance=ExtResource("5_erodb")]
-position = Vector2(989, 363)
-
-[node name="Abismo148" parent="." unique_id=78053472 instance=ExtResource("5_erodb")]
-position = Vector2(998, 363)
-
 [node name="Abismo13" parent="." unique_id=579158021 instance=ExtResource("5_erodb")]
-position = Vector2(866, 579)
+position = Vector2(866, 593)
 
 [node name="Abismo14" parent="." unique_id=1597159859 instance=ExtResource("5_erodb")]
-position = Vector2(866, 625)
+position = Vector2(866, 639)
 
 [node name="Abismo15" parent="." unique_id=526336972 instance=ExtResource("5_erodb")]
-position = Vector2(862, 11)
+position = Vector2(862, 0)
 
 [node name="Abismo16" parent="." unique_id=402661140 instance=ExtResource("5_erodb")]
-position = Vector2(862, 57)
+position = Vector2(862, 46)
 
 [node name="Abismo17" parent="." unique_id=1411952580 instance=ExtResource("5_erodb")]
-position = Vector2(862, 103)
+position = Vector2(862, 92)
 
 [node name="Abismo86" parent="." unique_id=1538632976 instance=ExtResource("5_erodb")]
 position = Vector2(862, 138)
 
-[node name="Abismo87" parent="." unique_id=1433798421 instance=ExtResource("5_erodb")]
-position = Vector2(892, 138)
-
-[node name="Abismo88" parent="." unique_id=1227997010 instance=ExtResource("5_erodb")]
-position = Vector2(922, 138)
-
 [node name="Abismo89" parent="." unique_id=1683316647 instance=ExtResource("5_erodb")]
-position = Vector2(956, 185)
+position = Vector2(956, 181)
 
 [node name="Abismo90" parent="." unique_id=809510457 instance=ExtResource("5_erodb")]
 position = Vector2(956, 227)
 
-[node name="Abismo91" parent="." unique_id=1770906042 instance=ExtResource("5_erodb")]
-position = Vector2(986, 227)
-
-[node name="Abismo149" parent="." unique_id=1367899153 instance=ExtResource("5_erodb")]
-position = Vector2(999, 227)
-
 [node name="Abismo18" parent="." unique_id=861307937 instance=ExtResource("5_erodb")]
 position = Vector2(677, 77)
 
-[node name="Abismo109" parent="." unique_id=269596238 instance=ExtResource("5_erodb")]
-position = Vector2(707, 77)
-
-[node name="Abismo110" parent="." unique_id=2113053053 instance=ExtResource("5_erodb")]
-position = Vector2(737, 77)
-
-[node name="Abismo111" parent="." unique_id=1681887279 instance=ExtResource("5_erodb")]
+[node name="Abismo112" parent="." unique_id=1842004046 instance=ExtResource("5_erodb")]
 position = Vector2(746, 77)
 
-[node name="Abismo112" parent="." unique_id=1842004046 instance=ExtResource("5_erodb")]
-position = Vector2(746, 123)
+[node name="Abismo121" parent="." unique_id=1684011553 instance=ExtResource("5_erodb")]
+position = Vector2(746, 107)
 
 [node name="Abismo113" parent="." unique_id=1049061466 instance=ExtResource("5_erodb")]
 position = Vector2(746, 137)
@@ -1036,9 +1024,6 @@ position = Vector2(700, 406)
 
 [node name="Abismo120" parent="." unique_id=1601312992 instance=ExtResource("5_erodb")]
 position = Vector2(700, 452)
-
-[node name="Abismo121" parent="." unique_id=1734311241 instance=ExtResource("5_erodb")]
-position = Vector2(732, 500)
 
 [node name="Abismo122" parent="." unique_id=1071416046 instance=ExtResource("5_erodb")]
 position = Vector2(740, 500)
@@ -1082,38 +1067,11 @@ position = Vector2(560, 639)
 [node name="Abismo128" parent="." unique_id=1260388520 instance=ExtResource("5_erodb")]
 position = Vector2(560, 685)
 
-[node name="Abismo129" parent="." unique_id=1736244307 instance=ExtResource("5_erodb")]
-position = Vector2(590, 690)
-
-[node name="Abismo130" parent="." unique_id=282294416 instance=ExtResource("5_erodb")]
-position = Vector2(620, 690)
-
 [node name="Abismo69" parent="." unique_id=1326659784 instance=ExtResource("5_erodb")]
 position = Vector2(560, 547)
 
 [node name="Abismo25" parent="." unique_id=1460349958 instance=ExtResource("5_erodb")]
 position = Vector2(543, 409)
-
-[node name="Abismo66" parent="." unique_id=946430355 instance=ExtResource("5_erodb")]
-position = Vector2(573, 409)
-
-[node name="Abismo67" parent="." unique_id=1113672871 instance=ExtResource("5_erodb")]
-position = Vector2(603, 409)
-
-[node name="Abismo68" parent="." unique_id=468923795 instance=ExtResource("5_erodb")]
-position = Vector2(633, 409)
-
-[node name="Abismo70" parent="." unique_id=1962041037 instance=ExtResource("5_erodb")]
-position = Vector2(663, 409)
-
-[node name="Abismo106" parent="." unique_id=1239219756 instance=ExtResource("5_erodb")]
-position = Vector2(601, 227)
-
-[node name="Abismo107" parent="." unique_id=779125684 instance=ExtResource("5_erodb")]
-position = Vector2(631, 227)
-
-[node name="Abismo108" parent="." unique_id=1285424783 instance=ExtResource("5_erodb")]
-position = Vector2(661, 227)
 
 [node name="Abismo26" parent="." unique_id=2071569432 instance=ExtResource("5_erodb")]
 position = Vector2(542, 547)
@@ -1151,15 +1109,6 @@ position = Vector2(206, 225)
 [node name="Abismo93" parent="." unique_id=408980866 instance=ExtResource("5_erodb")]
 position = Vector2(236, 225)
 
-[node name="Abismo94" parent="." unique_id=15055964 instance=ExtResource("5_erodb")]
-position = Vector2(267, 273)
-
-[node name="Abismo150" parent="." unique_id=384062641 instance=ExtResource("5_erodb")]
-position = Vector2(237, 273)
-
-[node name="Abismo95" parent="." unique_id=138134975 instance=ExtResource("5_erodb")]
-position = Vector2(297, 273)
-
 [node name="Abismo5" parent="." unique_id=1770491372 instance=ExtResource("5_erodb")]
 position = Vector2(176, 363)
 
@@ -1171,9 +1120,6 @@ position = Vector2(206, 409)
 
 [node name="Abismo41" parent="." unique_id=847446226 instance=ExtResource("5_erodb")]
 position = Vector2(236, 409)
-
-[node name="Abismo42" parent="." unique_id=1073867631 instance=ExtResource("5_erodb")]
-position = Vector2(236, 363)
 
 [node name="Trajetoria3" type="Path2D" parent="." unique_id=6603870]
 curve = SubResource("Curve2D_12jx3")
