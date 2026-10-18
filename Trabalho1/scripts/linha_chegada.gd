@@ -16,7 +16,6 @@ func _on_body_entered(body: Node2D) -> void:
 		var main_node = get_tree().current_scene
 		
 		if main_node:
-			# Pega o nó CanvasLayer "Tempo" e depois pega o "Timer" que está dentro dele
 			var node_tempo = main_node.get_node_or_null("Tempo")
 			var timer = node_tempo.get_node_or_null("Timer") if node_tempo else null
 			var tela_final = main_node.get_node_or_null("Final")
@@ -25,4 +24,4 @@ func _on_body_entered(body: Node2D) -> void:
 				timer.stop()
 				
 				if tela_final:
-					tela_final.mostrar_final("VITORIA!", "Voce venceu, parabens voce conseguiu completar o percurso", "Recomeçar")
+					tela_final.mostrar_final("VITORIA!", "Parabens voce conseguiu completar o percurso", "Recomeçar")

@@ -18,5 +18,8 @@ func _on_body_entered(body: Node2D) -> void:
 			if timer and not timer.is_stopped() and timer.time_left > 0:
 				timer.stop()
 			
+			if body.has_method("blink_and_vanish"):
+				await body.blink_and_vanish()
+			
 			if tela_final:
-				tela_final.mostrar_final("Game Over", "Você foi atingido pela esfera adversária!", "Tentar Novamente")
+				tela_final.mostrar_final("Game Over", "Voce foi atingido pela esfera adversaria!", "Tentar Novamente")
