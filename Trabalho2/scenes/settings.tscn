@@ -1,0 +1,107 @@
+[gd_scene format=3 uid="uid://bibhsd1de07mv"]
+
+[ext_resource type="Script" uid="uid://dfomakhwh15x" path="res://scripts/settings.gd" id="1_6wm04"]
+[ext_resource type="FontFile" uid="uid://duft5ut6xlxy8" path="res://sprites/VT323-Regular.ttf" id="2_6wm04"]
+[ext_resource type="Texture2D" uid="uid://bi65adbyj16y1" path="res://sprites/sky1.png" id="2_f4mfi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f4mfi"]
+content_margin_left = 8.0
+content_margin_top = 2.0
+content_margin_right = 8.0
+content_margin_bottom = 2.0
+bg_color = Color(0.29387334, 0.4197295, 0.78100944, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_es4n0"]
+content_margin_left = 8.0
+content_margin_top = 2.0
+content_margin_right = 8.0
+content_margin_bottom = 2.0
+bg_color = Color(0.19448677, 0.2975857, 0.61111784, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gis3k"]
+content_margin_left = 8.0
+content_margin_top = 2.0
+content_margin_right = 8.0
+content_margin_bottom = 2.0
+bg_color = Color(0.19607843, 0.29803923, 0.6117647, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[node name="Settings" type="CanvasLayer" unique_id=1140025291]
+script = ExtResource("1_6wm04")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1778958744]
+position = Vector2(144.25002, 103.999985)
+scale = Vector2(0.14973956, 0.17333332)
+texture = ExtResource("2_f4mfi")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2100830265]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -40.5
+offset_top = -24.0
+offset_right = 40.5
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1102059027]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.106219865, 0.38172105, 0.47002953, 1)
+theme_override_fonts/font = ExtResource("2_6wm04")
+theme_override_font_sizes/font_size = 10
+text = "Grupo:"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="VBoxContainer" unique_id=1587547412]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_6wm04")
+theme_override_font_sizes/font_size = 6
+text = "Angélica Mendes Coutinho
+Vinícius Fernandes Baylet"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="VBoxContainer" unique_id=1096671867]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.105882354, 0.38039216, 0.47058824, 1)
+theme_override_fonts/font = ExtResource("2_6wm04")
+theme_override_font_sizes/font_size = 8
+text = "Fontes de Assets:"
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="VBoxContainer" unique_id=1687612311]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_6wm04")
+theme_override_font_sizes/font_size = 5
+text = "opengameart.org
+grafxkid.itch.io"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BackButton" type="Button" parent="VBoxContainer" unique_id=760881500]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_f4mfi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_es4n0")
+theme_override_styles/hover = SubResource("StyleBoxFlat_gis3k")
+text = "Voltar"
+
+[connection signal="pressed" from="VBoxContainer/BackButton" to="." method="_on_back_button_pressed"]

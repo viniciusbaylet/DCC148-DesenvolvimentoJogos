@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c6jqgg52tbpnf"]
 
-[ext_resource type="Texture2D" uid="uid://r6s1q2u4na3t" path="res://sprites/sky1.png" id="1_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://bi65adbyj16y1" path="res://sprites/sky1.png" id="1_0wfyh"]
 [ext_resource type="FontFile" uid="uid://duft5ut6xlxy8" path="res://sprites/VT323-Regular.ttf" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://cu1wib15j2lwj" path="res://scripts/main.gd" id="1_sugp2"]
 
@@ -36,6 +36,39 @@ corner_radius_top_left = 4
 corner_radius_top_right = 4
 corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sugp2"]
+content_margin_left = 8.0
+content_margin_top = 2.0
+content_margin_right = 8.0
+content_margin_bottom = 2.0
+bg_color = Color(0.29387334, 0.4197295, 0.78100944, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jyhfs"]
+content_margin_left = 8.0
+content_margin_top = 2.0
+content_margin_right = 8.0
+content_margin_bottom = 2.0
+bg_color = Color(0.19448677, 0.2975857, 0.61111784, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tbgi4"]
+content_margin_left = 8.0
+content_margin_top = 2.0
+content_margin_right = 8.0
+content_margin_bottom = 2.0
+bg_color = Color(0.19607843, 0.29803923, 0.6117647, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
 
 [node name="Main" type="CanvasLayer" unique_id=1738604618]
 script = ExtResource("1_sugp2")
@@ -78,4 +111,15 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_0wfyh")
 theme_override_styles/hover = SubResource("StyleBoxFlat_o5qli")
 text = "Jogar"
 
+[node name="SettingsButton" type="Button" parent="VBoxContainer" unique_id=1497809712]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_sugp2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_jyhfs")
+theme_override_styles/hover = SubResource("StyleBoxFlat_tbgi4")
+text = "Configurações"
+
 [connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]
