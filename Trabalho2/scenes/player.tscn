@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://b53itvcmm4a8p" path="res://scripts/player.gd" id="1_g2els"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ryepx"]
-size = Vector2(20, 30)
+size = Vector2(15, 30)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2els"]
 atlas = ExtResource("1_3vyb7")
@@ -166,13 +166,13 @@ animations = [{
 script = ExtResource("1_g2els")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1322892740]
-position = Vector2(0, 1)
+position = Vector2(-0.5, 1)
 shape = SubResource("RectangleShape2D_ryepx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1015357800]
 sprite_frames = SubResource("SpriteFrames_h0jfm")
 animation = &"jump"
-frame_progress = 0.9114384
+frame_progress = 0.23137586
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=794270741]
 limit_left = 0
