@@ -1,0 +1,83 @@
+[gd_scene format=3 uid="uid://dyav2xl7mvksv"]
+
+[ext_resource type="Script" uid="uid://dfwnwjto34ksd" path="res://scripts/game_over.gd" id="1_racf3"]
+[ext_resource type="Texture2D" uid="uid://bi65adbyj16y1" path="res://sprites/sky1.png" id="1_wqhvx"]
+[ext_resource type="FontFile" uid="uid://duft5ut6xlxy8" path="res://sprites/VT323-Regular.ttf" id="2_tbwuq"]
+[ext_resource type="Script" uid="uid://20wnpidwjksc" path="res://scripts/game_manager.gd" id="4_7m3ot"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_racf3"]
+content_margin_left = 10.0
+content_margin_top = 2.0
+content_margin_right = 10.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 0.33333334, 0.34509805, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7m3ot"]
+content_margin_left = 10.0
+content_margin_top = 2.0
+content_margin_right = 10.0
+content_margin_bottom = 4.0
+bg_color = Color(0.776186, 0, 0.14780828, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v3hpu"]
+content_margin_left = 10.0
+content_margin_top = 2.0
+content_margin_right = 10.0
+content_margin_bottom = 4.0
+bg_color = Color(0.9999986, 0.19771975, 0.2605632, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="GameOver" type="CanvasLayer" unique_id=91375472]
+script = ExtResource("1_racf3")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=992609835]
+position = Vector2(143.99995, 104.000015)
+scale = Vector2(0.15000005, 0.1733333)
+texture = ExtResource("1_wqhvx")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1661397815]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 13
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=190675157]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_tbwuq")
+theme_override_font_sizes/font_size = 25
+text = "GAME OVER"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="VBoxContainer" unique_id=907581653]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_tbwuq")
+theme_override_font_sizes/font_size = 10
+text = "O jogador caiu no abismo"
+horizontal_alignment = 1
+
+[node name="RestartButton" type="Button" parent="VBoxContainer" unique_id=543067353]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 6
+theme_override_styles/normal = SubResource("StyleBoxFlat_racf3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_7m3ot")
+theme_override_styles/hover = SubResource("StyleBoxFlat_v3hpu")
+text = "Tentar novamente"
+script = ExtResource("4_7m3ot")
+
+[connection signal="pressed" from="VBoxContainer/RestartButton" to="." method="_on_restart_button_pressed"]

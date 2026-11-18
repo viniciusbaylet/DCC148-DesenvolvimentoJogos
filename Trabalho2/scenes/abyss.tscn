@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dnjeppeg24ds2"]
+
+[ext_resource type="Script" uid="uid://fjtla7sijgoe" path="res://scripts/abyss.gd" id="1_qu0q5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0jfm"]
+size = Vector2(593, 20)
+
+[node name="Abyss" type="Area2D" unique_id=905991740]
+script = ExtResource("1_qu0q5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1506217784]
+position = Vector2(295.5, 0)
+shape = SubResource("RectangleShape2D_h0jfm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
