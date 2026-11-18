@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://lqu0icsx8alw"]
+
+[ext_resource type="Texture2D" uid="uid://1txiwhq85lqr" path="res://sprites/floor.png" id="1_ukw5w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0jfm"]
+size = Vector2(101, 32)
+
+[node name="Floor" type="StaticBody2D" unique_id=1718097551]
+position = Vector2(141, 208)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=144049890]
+position = Vector2(33.250004, 0)
+scale = Vector2(3.015152, 1)
+texture = ExtResource("1_ukw5w")
+region_enabled = true
+region_rect = Rect2(96.00003, 32.333336, 33.333344, 32.000008)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=904990867]
+position = Vector2(33.5, 0)
+shape = SubResource("RectangleShape2D_h0jfm")
