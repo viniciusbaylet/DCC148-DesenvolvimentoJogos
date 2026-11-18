@@ -5,9 +5,9 @@
 [ext_resource type="Script" uid="uid://cu1wib15j2lwj" path="res://scripts/main.gd" id="1_sugp2"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7x5g5"]
-content_margin_left = 25.0
+content_margin_left = 20.0
 content_margin_top = 2.0
-content_margin_right = 25.0
+content_margin_right = 20.0
 content_margin_bottom = 4.0
 bg_color = Color(1, 0.33333334, 0.34509805, 1)
 corner_radius_top_left = 4
@@ -16,9 +16,9 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0wfyh"]
-content_margin_left = 25.0
+content_margin_left = 20.0
 content_margin_top = 2.0
-content_margin_right = 25.0
+content_margin_right = 20.0
 content_margin_bottom = 4.0
 bg_color = Color(0.776186, 0, 0.14780828, 1)
 corner_radius_top_left = 4
@@ -27,9 +27,9 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o5qli"]
-content_margin_left = 25.0
+content_margin_left = 20.0
 content_margin_top = 2.0
-content_margin_right = 25.0
+content_margin_right = 20.0
 content_margin_bottom = 4.0
 bg_color = Color(0.9999986, 0.19771975, 0.2605632, 1)
 corner_radius_top_left = 4
@@ -41,8 +41,8 @@ corner_radius_bottom_left = 4
 script = ExtResource("1_sugp2")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1659955041]
-position = Vector2(576, 324)
-scale = Vector2(0.6000001, 0.53999996)
+position = Vector2(143.99995, 104.000015)
+scale = Vector2(0.15000005, 0.1733333)
 texture = ExtResource("1_0wfyh")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=681070104]
@@ -51,20 +51,20 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/separation = 30
+theme_override_constants/separation = 13
 alignment = 1
 
 [node name="Label" type="Label" parent="VBoxContainer" unique_id=1064427561]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_o5qli")
-theme_override_font_sizes/font_size = 70
+theme_override_font_sizes/font_size = 20
 text = "DCC148 - Desenvolvimento de Jogos"
 horizontal_alignment = 1
 
 [node name="Label2" type="Label" parent="VBoxContainer" unique_id=1473408230]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_o5qli")
-theme_override_font_sizes/font_size = 50
+theme_override_font_sizes/font_size = 15
 text = "Trabalho 2"
 horizontal_alignment = 1
 
@@ -72,7 +72,7 @@ horizontal_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-theme_override_font_sizes/font_size = 20
+theme_override_font_sizes/font_size = 8
 theme_override_styles/normal = SubResource("StyleBoxFlat_7x5g5")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_0wfyh")
 theme_override_styles/hover = SubResource("StyleBoxFlat_o5qli")
