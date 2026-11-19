@@ -176,6 +176,6 @@ frame_progress = 0.23137586
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=794270741]
 limit_left = 0
-limit_right = 1100
+limit_right = 1584
 limit_bottom = 208
 position_smoothing_enabled = true
