@@ -64,14 +64,14 @@ alignment = 1
 layout_mode = 2
 theme_override_colors/font_color = Color(0.106219865, 0.38172105, 0.47002953, 1)
 theme_override_fonts/font = ExtResource("2_6wm04")
-theme_override_font_sizes/font_size = 10
+theme_override_font_sizes/font_size = 12
 text = "Grupo:"
 horizontal_alignment = 1
 
 [node name="Label2" type="Label" parent="VBoxContainer" unique_id=1587547412]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_6wm04")
-theme_override_font_sizes/font_size = 6
+theme_override_font_sizes/font_size = 7
 text = "Angélica Mendes Coutinho
 Vinícius Fernandes Baylet"
 horizontal_alignment = 1
@@ -81,16 +81,17 @@ vertical_alignment = 1
 layout_mode = 2
 theme_override_colors/font_color = Color(0.105882354, 0.38039216, 0.47058824, 1)
 theme_override_fonts/font = ExtResource("2_6wm04")
-theme_override_font_sizes/font_size = 8
+theme_override_font_sizes/font_size = 10
 text = "Fontes de Assets:"
 horizontal_alignment = 1
 
 [node name="Label4" type="Label" parent="VBoxContainer" unique_id=1687612311]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_6wm04")
-theme_override_font_sizes/font_size = 5
+theme_override_font_sizes/font_size = 6
 text = "opengameart.org
-grafxkid.itch.io"
+grafxkid.itch.io
+pixabay.com"
 horizontal_alignment = 1
 vertical_alignment = 1
 

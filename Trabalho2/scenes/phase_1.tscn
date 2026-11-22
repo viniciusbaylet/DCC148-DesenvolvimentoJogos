@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://cbfppfqoaqmcx" path="res://sprites/decoration.png" id="8_hw0ns"]
 [ext_resource type="PackedScene" uid="uid://dnjeppeg24ds2" path="res://scenes/abyss.tscn" id="9_xfxhn"]
 [ext_resource type="Texture2D" uid="uid://cbutihte3nskv" path="res://sprites/tropicsEntities.png" id="10_040wb"]
+[ext_resource type="AudioStream" uid="uid://dgx53y3seg2r5" path="res://sprites/backgroundSound.mp3" id="12_uynof"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xg61l"]
 texture = ExtResource("2_1p1l4")
@@ -365,3 +366,6 @@ tile_set = SubResource("TileSet_ryepx")
 
 [node name="Abyss" parent="." unique_id=905991740 instance=ExtResource("9_xfxhn")]
 position = Vector2(-8, 294)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=69400787]
+stream = ExtResource("12_uynof")
