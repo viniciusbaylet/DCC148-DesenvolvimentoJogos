@@ -15,6 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://cjqhd5mdfg5kt" path="res://sprites/winter_decoration.png" id="11_ewpyp"]
 [ext_resource type="PackedScene" uid="uid://dj6r4dlqd7vrv" path="res://scenes/goal.tscn" id="14_dybmp"]
 [ext_resource type="AudioStream" uid="uid://drrxl4ovqi1au" path="res://sprites/backgroundSound2.mp3" id="15_1ytvb"]
+[ext_resource type="PackedScene" uid="uid://c15yh6208tgrg" path="res://scenes/hud.tscn" id="16_vn3yp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xg61l"]
 texture = ExtResource("7_pab6s")
@@ -323,3 +324,10 @@ next_scene_path = "uid://bibhsd1de07mv"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1847644328]
 stream = ExtResource("15_1ytvb")
+
+[node name="HUD" parent="." unique_id=228426854 instance=ExtResource("16_vn3yp")]
+
+[node name="PhaseLabel" parent="HUD" index="0" unique_id=785108307]
+text = "Fase 2"
+
+[editable path="HUD"]

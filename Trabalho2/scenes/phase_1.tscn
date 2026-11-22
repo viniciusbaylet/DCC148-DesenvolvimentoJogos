@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://cbutihte3nskv" path="res://sprites/tropicsEntities.png" id="10_040wb"]
 [ext_resource type="PackedScene" uid="uid://dj6r4dlqd7vrv" path="res://scenes/goal.tscn" id="11_6dbtb"]
 [ext_resource type="AudioStream" uid="uid://dgx53y3seg2r5" path="res://sprites/backgroundSound.mp3" id="12_uynof"]
+[ext_resource type="PackedScene" uid="uid://c15yh6208tgrg" path="res://scenes/hud.tscn" id="14_f5aup"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xg61l"]
 texture = ExtResource("2_1p1l4")
@@ -374,3 +375,5 @@ position = Vector2(-8, 294)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=69400787]
 stream = ExtResource("12_uynof")
+
+[node name="HUD" parent="." unique_id=228426854 instance=ExtResource("14_f5aup")]
