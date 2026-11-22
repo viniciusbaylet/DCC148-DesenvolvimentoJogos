@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://bi65adbyj16y1" path="res://sprites/sky1.png" id="1_0wfyh"]
 [ext_resource type="FontFile" uid="uid://duft5ut6xlxy8" path="res://sprites/VT323-Regular.ttf" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://cu1wib15j2lwj" path="res://scripts/main.gd" id="1_sugp2"]
+[ext_resource type="AudioStream" uid="uid://8lpajl1mniyy" path="res://sprites/menu.mp3" id="4_jyhfs"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7x5g5"]
 content_margin_left = 20.0
@@ -120,6 +121,10 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_sugp2")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_jyhfs")
 theme_override_styles/hover = SubResource("StyleBoxFlat_tbgi4")
 text = "Configurações"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1606277412]
+stream = ExtResource("4_jyhfs")
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]

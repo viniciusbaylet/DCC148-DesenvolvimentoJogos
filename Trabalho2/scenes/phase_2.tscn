@@ -14,7 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://cbutihte3nskv" path="res://sprites/tropicsEntities.png" id="10_nopqe"]
 [ext_resource type="Texture2D" uid="uid://cjqhd5mdfg5kt" path="res://sprites/winter_decoration.png" id="11_ewpyp"]
 [ext_resource type="PackedScene" uid="uid://dj6r4dlqd7vrv" path="res://scenes/goal.tscn" id="14_dybmp"]
-[ext_resource type="AudioStream" uid="uid://dgx53y3seg2r5" path="res://sprites/backgroundSound.mp3" id="15_1ytvb"]
+[ext_resource type="AudioStream" uid="uid://drrxl4ovqi1au" path="res://sprites/backgroundSound2.mp3" id="15_1ytvb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xg61l"]
 texture = ExtResource("7_pab6s")

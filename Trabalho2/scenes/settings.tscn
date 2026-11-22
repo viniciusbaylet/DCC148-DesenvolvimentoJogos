@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://dfomakhwh15x" path="res://scripts/settings.gd" id="1_6wm04"]
 [ext_resource type="FontFile" uid="uid://duft5ut6xlxy8" path="res://sprites/VT323-Regular.ttf" id="2_6wm04"]
 [ext_resource type="Texture2D" uid="uid://bi65adbyj16y1" path="res://sprites/sky1.png" id="2_f4mfi"]
+[ext_resource type="AudioStream" uid="uid://8lpajl1mniyy" path="res://sprites/menu.mp3" id="4_f4mfi"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f4mfi"]
 content_margin_left = 8.0
@@ -104,5 +105,9 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_f4mfi")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_es4n0")
 theme_override_styles/hover = SubResource("StyleBoxFlat_gis3k")
 text = "Voltar"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1410928618]
+stream = ExtResource("4_f4mfi")
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/BackButton" to="." method="_on_back_button_pressed"]

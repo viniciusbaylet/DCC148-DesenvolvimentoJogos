@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bi65adbyj16y1" path="res://sprites/sky1.png" id="1_wqhvx"]
 [ext_resource type="FontFile" uid="uid://duft5ut6xlxy8" path="res://sprites/VT323-Regular.ttf" id="2_tbwuq"]
 [ext_resource type="Script" uid="uid://20wnpidwjksc" path="res://scripts/game_manager.gd" id="4_7m3ot"]
+[ext_resource type="AudioStream" uid="uid://rcg3ji6h2eou" path="res://sprites/gameOver.mp3" id="5_7m3ot"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_racf3"]
 content_margin_left = 10.0
@@ -79,5 +80,9 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_7m3ot")
 theme_override_styles/hover = SubResource("StyleBoxFlat_v3hpu")
 text = "Tentar novamente"
 script = ExtResource("4_7m3ot")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=630930797]
+stream = ExtResource("5_7m3ot")
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/RestartButton" to="." method="_on_restart_button_pressed"]
