@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cb8kvjt51xa8i" path="res://sprites/player.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://b53itvcmm4a8p" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="AudioStream" uid="uid://chbd60ccqvs66" path="res://sprites/jump.mp3" id="3_qhqgy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ryepx"]
 size = Vector2(15, 30)
@@ -179,3 +180,7 @@ limit_left = 0
 limit_right = 1584
 limit_bottom = 208
 position_smoothing_enabled = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=266354045]
+stream = ExtResource("3_qhqgy")
+volume_db = -21.518

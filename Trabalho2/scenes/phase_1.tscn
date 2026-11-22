@@ -364,4 +364,4 @@ tile_map_data = PackedByteArray("AAAIAAsAAAAOAAUAAAAIAAoAAAAOAAUAAAAKAAoAAAAOAAU
 tile_set = SubResource("TileSet_ryepx")
 
 [node name="Abyss" parent="." unique_id=905991740 instance=ExtResource("9_xfxhn")]
-position = Vector2(749, 294)
+position = Vector2(-8, 294)
