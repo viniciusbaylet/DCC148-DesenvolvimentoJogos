@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cdymrd0c6iym7"]
+
+[ext_resource type="Script" uid="uid://ctpvux4elh1ch" path="res://scripts/moving_step.gd" id="1_jxpqh"]
+[ext_resource type="Texture2D" uid="uid://bntpjci8dktxm" path="res://sprites/floor_winter.png" id="2_qartp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y00b8"]
+size = Vector2(48, 16)
+
+[node name="MovingStep" type="AnimatableBody2D" unique_id=469289782]
+script = ExtResource("1_jxpqh")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1975011392]
+texture = ExtResource("2_qartp")
+region_enabled = true
+region_rect = Rect2(96, 32, 48, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=231313642]
+shape = SubResource("RectangleShape2D_y00b8")
