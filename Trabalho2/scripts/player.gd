@@ -6,6 +6,7 @@ extends CharacterBody2D
 const SPEED = 250.0
 const JUMP_VELOCITY = -400.0
 
+@export var friction: float = 250.0
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -21,9 +22,13 @@ func _physics_process(delta: float) -> void:
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction := Input.get_axis("move_left", "move_right")
 	if direction:
-		velocity.x = direction * SPEED
+		# Se estiver no gelo (friction baixa), demora um pouco mais para pegar embalo
+		if friction < SPEED:
+			velocity.x = move_toward(velocity.x, direction * SPEED, friction * 2.5)
+		else:
+			velocity.x = direction * SPEED
 	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
+		velocity.x = move_toward(velocity.x, 0, friction)
 		
 	if is_on_floor():
 		if direction > 0:
